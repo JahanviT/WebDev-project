@@ -1,0 +1,173 @@
+
+body {
+  font-family: "Ubuntu";
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h2{
+line-height: 1.5;
+  font-weight: bold;
+}
+
+h3{
+  font-weight: bold;
+}
+p{
+  color: grey;
+}
+
+.navbar-brand{
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.navbar{
+  padding: 10px 20px 10px 20px;
+
+}
+
+.navbar-nav{
+  padding-left: 400px;
+}
+.row{
+
+  position: relative;
+  text-align: center;
+  color: grey;
+}
+
+.nav-link{
+  padding:  25px 0 25px 0;
+}
+
+.title-img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  opacity: 0.2;
+  animation: fadeIn 5s;
+
+}
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 0.2;}
+}
+.centered {
+  font-family: 'Abril Fatface', cursive;
+  font-weight: bolder;
+  color: grey;
+  font-size: 3rem;
+  line-height: 1.5;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* features */
+.fas {
+  margin-bottom: 1.5rem;
+  color: #ef8172;
+
+}
+.fas:hover{
+  color: #ff4c68;
+}
+
+
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+
+  }
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+/* testimonial Section */
+
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #f8f6f3;
+  color: grey;
+}
+.testimonial-img{
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+/* pricing section */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-col{
+  padding: 3% 2%;
+}
+@media (max-width: 1028px) {
+
+  #title{
+    text-align: center;
+  }
+  .title-img{
+
+    transform:rotate(0);
+
+  }
+
+}
+
+.md-form{
+  padding: 1% 2%;
+}
+
+.pricing-btn{
+  padding: 1% 2%;
+}
+
+#contact{
+  background-color: #f8f6f3;
+  padding:7% 15%;
+}
+
+
+#footer{
+  background-color: white;
+  text-align: center;
+padding: 7% 15%;
+}
+.footer-icon{
+  padding: 5% 1% 1%;
+}
+.footer-icon:hover{
+  color: #ef8172;
+}
+
+
+
+.thanks{
+  text-align: center;
+  font-size: 150px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: cursive;
+  padding: 7% 5%;
+}
+
+.thank-btn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
